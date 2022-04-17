@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #232323;
+    font-family: 'Merriweather', serif;
+}
+
+h1{
+    margin: 0px;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    padding-top: 50px;
+    
+    padding-bottom: 50px;
+    background-color: steelblue;
+    font-size: 2rem;
+}
+.squares{
+    width: 30%;
+    float: left;
+    background-color: purple;
+    margin: 1.66%;
+    padding-top: 30%;
+    border-radius: 12%;
+    
+}
+#container{
+    width: 600px;
+    margin-top: 25px;
+    margin: 0 auto;
+}
+
+#stripe{
+    background-color: white;
+    height: 60px;
+    text-align: center;
+}
+span{
+    color: white;
+    font-size: 150%;
+}
+#message{
+    color: black;
+    padding: 20px;
+    
+}
+
+.selected
+{
+    background-color: aqua;
+}
+
+#reset{
+    
+    width: 180px;
+}
+
+button{
+    border: none;
+    font-family: 'Rubik', sans-serif;
+    font-size: 22px;
+    background-color: white;
+    padding:6px 0px 6px 0px ;
+    width: 100px;
+    margin-top: 10px;
+    border-radius: 3%;
+}
+button:hover{
+    transition: 0.25s ease-in-out ;
+    background-color: steelblue;
+    color: white;
+   
+}
+
+.squares:hover{
+    transition: 0.1s ease-in-out 0.03s;  
+}
